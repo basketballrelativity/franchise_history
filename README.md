@@ -13,8 +13,12 @@ The figure below shows the history of active franchises in the WNBA.
 
 ![](wnba.png)
 
+Note the rapid growth of lasting franchises in the early years of the league, along with the franchise changes (dashed, vertical lines) for the current Las Vegas Aces franchise.
+
 ### NBA
 
 The figure below shows the history of active franchises in the NBA
 
 ![](nba.png)
+
+The NBA also features heavy, early growth, with other periods of league expansion throughout its history. Note the ABA-NBA merger that saw the Brooklyn Nets (then New York), San Antonio Spurs, Indiana Pacers, and Denver Nuggets join the NBA in 1976. 
