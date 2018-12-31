@@ -3,7 +3,7 @@ WNBA and NBA franchise history visualization
 
 ## Description
 
-This repo contains both a script (`franchise_history.py`) and notebook (`franchise_history.ipynb`) using the `franchisehistory` endpoint of the [stats.nba.com](https://stats.nba.com). With the `League` and `Logo` classes from the `py_ball` package, the code here explores the history of active WNBA franchises.
+This repo contains both a script (`franchise_history.py`) and notebooks (`franchise_history.ipynb` and `titles.ipynb`) using the `franchisehistory` endpoint of the [stats.nba.com](https://stats.nba.com). With the `League` and `Logo` classes from the `py_ball` package, the code here explores the history of active WNBA franchises and playoff/title history of all franchises.
 
 ## Results
 
