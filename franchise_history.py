@@ -22,6 +22,7 @@ HEADERS = {'Connection': 'close',
            'Origin': 'http://stats.nba.com',
            'Upgrade-Insecure-Requests': '1',
            'Referer': 'stats.nba.com',
+           'x-nba-stats-origin': 'stats',
            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2)' + \
                          'AppleWebKit/537.36 (KHTML, like Gecko) ' + \
                          'Chrome/66.0.3359.117 Safari/537.36'}
