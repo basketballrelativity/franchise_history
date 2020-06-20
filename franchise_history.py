@@ -17,15 +17,18 @@ from PIL import Image
 
 from py_ball import league, image
 
-HEADERS = {'Connection': 'close',
+HEADERS = {'Connection': 'keep-alive',
            'Host': 'stats.nba.com',
            'Origin': 'http://stats.nba.com',
            'Upgrade-Insecure-Requests': '1',
            'Referer': 'stats.nba.com',
            'x-nba-stats-origin': 'stats',
-           'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2)' + \
-                         'AppleWebKit/537.36 (KHTML, like Gecko) ' + \
-                         'Chrome/66.0.3359.117 Safari/537.36'}
+           'x-nba-stats-token': 'true',
+           'Accept-Language': 'en-US,en;q=0.9',
+           "X-NewRelic-ID": "VQECWF5UChAHUlNTBwgBVw==",
+           'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6)' +\
+                         ' AppleWebKit/537.36 (KHTML, like Gecko)' + \
+                         ' Chrome/81.0.4044.129 Safari/537.36'}
 
 def add_logo(fig, logo, x_frac, y_frac):
     """ This function adds a logo to the provided figure
